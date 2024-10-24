@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     line-height: 1.6;
     display: grid;
     grid-template-areas:
@@ -61,6 +61,15 @@ img {
     height: auto;
     display: block;
     margin: 0.5rem 0;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Responsive design */
