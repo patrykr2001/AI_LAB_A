@@ -61,6 +61,7 @@ img {
     height: auto;
     display: block;
     margin: 0.5rem 0;
+    transition: transform 0.3s ease;
 }
 
 a {
@@ -102,6 +103,10 @@ a:hover {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1rem;
+    }
+
+    img:hover {
+        transform: scale(1.5); /* Enlarge the image */
     }
 }
 
